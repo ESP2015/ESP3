@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RPSX</string>
+    <string name="title">ROCK PAPER SCISSORS</string>
+    <string name="subtitle">XTREME</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
