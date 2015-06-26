@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:padding="50dp"
+    android:id="@+id/play_rel_layout"
+    android:background="@drawable/rspxbackground2">
+
+    <TextView
+        android:id="@+id/textout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:textSize="45dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Nothing"
+        android:freezesText="true"
+        android:textColor="#ffffffff"
+        android:background="#8b000000" />
+
+    <Button
+        android:layout_width="125dip"
+        android:layout_height="125dip"
+        android:id="@+id/button"
+        android:textSize="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:height="130dp"
+        android:width="130dp"
+        android:gravity="center_horizontal"
+        android:onClick="setRock"
+        android:background="@drawable/rock" />
+
+    <Button
+        android:layout_width="125dip"
+        android:layout_height="125dip"
+        android:id="@+id/button2"
+        android:textSize="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:height="130dp"
+        android:width="130dp"
+        android:gravity="center_horizontal"
+        android:onClick="setPaper"
+        android:background="@drawable/paper" />
+
+    <Button
+        android:layout_width="125dip"
+        android:layout_height="125dip"
+        android:id="@+id/button3"
+        android:textSize="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:height="130dp"
+        android:width="130dp"
+        android:gravity="center_horizontal"
+        android:onClick="setScissors"
+        android:background="@drawable/scissors" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Currently Selected:"
+        android:id="@+id/textView3"
+        android:textSize="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff"
+        android:autoText="false"
+        android:background="#8b000000" />
+
+</RelativeLayout>
